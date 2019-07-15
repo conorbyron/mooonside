@@ -1,0 +1,22 @@
+{
+  "name": "mooonside",
+  "version": "1.0.0",
+  "description": "Libraries used by Node for Max",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorbyron/mooonside.git"
+  },
+  "author": "Conor Byron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conorbyron/mooonside/issues"
+  },
+  "homepage": "https://github.com/conorbyron/mooonside#readme",
+  "dependencies": {
+    "ws": "^7.0.0"
+  }
+}
