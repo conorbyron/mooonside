@@ -292,12 +292,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-83",
-					"linecount" : 6,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 492.0, 150.0, 87.0 ],
-					"text" : "With the frequency possibilities safely pixelated using the scaleGenerator, you can easily design melodies based on shape."
+					"patching_rect" : [ 55.0, 430.0, 151.0, 167.0 ],
+					"text" : "With the frequency possibilities safely pixelated using the scaleGenerator, you can easily design melodies based on shape.\n\nCreate functionality to specify patterns in grid spacing, creating chord patterns in the scale that is set."
 				}
 
 			}
@@ -1020,8 +1020,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 722.25, 667.0, 29.5, 22.0 ],
-					"text" : "+ 0."
+					"patching_rect" : [ 722.25, 667.0, 36.0, 22.0 ],
+					"text" : "+ 40."
 				}
 
 			}
@@ -1063,14 +1063,14 @@
 					"patching_rect" : [ 722.25, 804.5, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ -18 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[2]"
+							"parameter_longname" : "live.gain~[2]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1197,8 +1197,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 641.0, 562.0, 29.5, 22.0 ],
-					"text" : "+ 0"
+					"patching_rect" : [ 641.0, 562.0, 32.0, 22.0 ],
+					"text" : "+ 10"
 				}
 
 			}
@@ -1227,10 +1227,10 @@
 					"patching_rect" : [ 641.0, 177.553634643554688, 274.0, 278.892730712890625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3,
-							"parameter_longname" : "live.grid"
+							"parameter_longname" : "live.grid",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1294,8 +1294,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 452.0, 81.0, 41.0, 22.0 ],
-					"text" : "metro"
+					"patching_rect" : [ 452.0, 81.0, 63.0, 22.0 ],
+					"text" : "metro 200"
 				}
 
 			}
@@ -2026,8 +2026,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-10" : [ "live.grid", "live.grid", 0 ],
+			"obj-28" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}

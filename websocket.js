@@ -1,4 +1,3 @@
-
 const maxApi = require("max-api");
 const WebSocketServer = require('ws').Server;
 
